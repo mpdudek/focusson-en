@@ -11,7 +11,9 @@ body{
 	text-shadow: none;
 	background:#fac917;
 }
-
+.bold {
+	font-weight: bold;
+}
 .nav-wrap{
 	background-color: #39383f;
 }
@@ -47,6 +49,7 @@ body{
 
 .nav-brand-bold{
 	font-weight: 700;
+	margin-left: -160px;
 }
 
 .nav-claim{
@@ -60,6 +63,7 @@ body{
     font-style: italic;
     margin-left: 21px;
 	font-weight: 100;
+	margin-left: -70px
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -71,29 +75,42 @@ body{
 }
 
 .homepage-wrap{
-	background-image: url("focusson-images/picture/glowna strona.jpg");
+	background-image: url("focusson-images/picture/glownyslajd.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right bottom;
+	padding: 20px;
+}
+
+.MainPageStyl{
+	display: table;
 }
 
 .Main-slogan{
-    font-weight: 900;
+	font-weight: 900;
     font-size: 28px;
-    color: #000000;
-    padding-bottom: 360px;
-    padding-top: 100px;
-    padding-left: 80px
+    color: #ffffff;
+    display: table;
+    margin-top: 50%;
+    margin-left: 20px;
+}
+
+.MainPageButton{
+	padding-left: 20px;
+}
+
+.MainPageButtonRight{
+margin-right: 10px;
 }
 
 .Sub-slogan{
 	font-size: 21px;
-	display: block;
-	margin-bottom: 10px;
-	font-weight: 500;
-    line-height: 1.3;
-	color: #444444;	
-	padding-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 0.4;
+    color: white;
+    display: block;
+    margin-left: 20px;
 }
 
 .text-homepage{
@@ -129,10 +146,26 @@ body{
 	width: 20px;
 }
 
+/*TOOLS*/
+.IntroductionListColor{
+	color: white;
+	text-align: justify;
+	width: 28%;
+}
 .Introduction-wrap{
-	background-image: url(focusson-images/mozliwoscibw.jpg);
-	background-size: cover;
-	background-position: 300px -8px; 
+    background-image: url("focusson-images/picture/czarny stol.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+} 
+
+.FilmBackgroud{
+	background-image: url(focusson-images/lupa.png);
+    background-color: orange;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 120%;
+    padding: 60px;
 }
 
 .intro-column{
@@ -142,6 +175,7 @@ body{
 .line{
 	border-left: 2px solid #ededed;
 	padding-left: 14px; 
+	padding-top: 20px;
 }
 
 .intro-slogan{
@@ -154,7 +188,7 @@ body{
 .intro-slogan2{
 	font-weight: 700;
 	font-size: 20px;
-	color: #3d3d3d;
+	color: rgb(255, 166, 0);
 }
 
  .aboutBox li{
@@ -182,13 +216,17 @@ dd{
 	padding-bottom: 20px;
 	padding-top: 10px;
 }
-
-.navbar-btn{
+.ContactUs{
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 73px;
-	margin-bottom: 60px;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-left: 75%;
+    background-color: #fac917;
+    color: #333;
+    text-decoration: none;
+}
+.navbar-btn{
+    display: inline-block;
 }
 
 .button-use-software{
@@ -211,7 +249,7 @@ dd{
 
 .Features-wrap{
 	background-image: url(focusson-images/mozliwosci.jpg);
-	background-position: -463px; bottom;
+	background-position: -463px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -287,7 +325,16 @@ dd{
 }
 
 /* TOOL */
-
+.toolsh1{
+	font-weight: bold;
+	color: black;
+}
+.toolsStyle{
+	padding-top: 20%;
+}
+.padding{
+	padding-bottom: 20px;
+}
 .Tool-wrap{
 	background-image: url(focusson-images/narzedziabw.jpg);
 	background-color: #ededed;
@@ -376,7 +423,6 @@ dd{
 
 /* FOOTER */ 
 
-
 .footer-slogan{
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -419,15 +465,27 @@ dd{
 
 .btn-default.navbar-btn.button-use-software.btn-block{
 	margin-bottom: 20px;
+	width: 150px;
 }
 
+.titleTools{
+	color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
 .ocasion{
-	text-align: center;
-    font-size: 16px;
+	font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
+    padding-left: 50px
 }
-
+.PriceStyle{
+	background-image: url("focusson-images/7ca.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
 .price-column2{
 	padding-top: 10px;
 	padding-right: 0px;
@@ -512,8 +570,7 @@ dd{
 	padding-left: 0px;
 }
 
-.proce-list{
-	list-style-type: none;
+.price-list{
 	padding-left: 0px;
 }
 
@@ -535,21 +592,34 @@ dd{
 .bar-wrap-giant{
 	padding-bottom: 50px;
 }
+.slogan {
+	padding: 7%;
+}
+
+/* KONTAKT*/
+.ContactPicture{
+	background-image: url(focusson-images/picture/bialebiurko.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200 0;
+}
 
 .barslogan-giant{
-	font-size: 25px;
-	margin-top: 60px;
+	font-size: 45px;
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.3;
-    color: #444444;
+	color: black;
+	text-align: center;
 }
 
 .email{
-	font-size: 17px;
-	margin-top: 60px;
-	color: #696969;
-	line-height: 1.428571429;
+	font-size: 21px;
+    color: #696969;
+    margin-left: 65%;
+    margin-top: -5%;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 .email a{
@@ -560,7 +630,24 @@ dd{
 	color: #fac917;
 	text-decoration: none;
 }
-
+.AboutUsKasia{
+	width: 50%;
+}
+.AboutUsTextMy{
+    padding-top: 129px;
+	font-weight: bold;
+	padding-left: 54px;
+}
+.AboutUsTextItalic{
+	font-style: italic;
+	padding-top: 148px;
+}
+.AboutUsTextColor{
+	color: orange;
+	padding: 225px;
+    padding-left: 47px
+}
+/*FOOTER*/
 .Contact-wrap{
 	background-color: #fac917;
 }
